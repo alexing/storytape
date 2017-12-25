@@ -1,0 +1,10 @@
+    Jazz
+    Metal
+    Pop -!
+    Folk -!
+    Rap
+    Rock
+    R&B
+    Country
+    Latin
+    Electronic
