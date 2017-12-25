@@ -78,10 +78,18 @@ def main(query, start_range):
 
 
 if __name__ == '__main__':
-    query = sys.argv[1]
-    start_range = sys.argv[2]
+    args = sys.argv[1:]
+    query = ''
+    start_range = 0
+    if args:
+        for i, arg in enumerate(args):
+            if i == 0:
+                query = args[0]
+            if i == 1:
+                start_range = args[1]
     if not query:
         query = 'pop'
     if not start_range:
         start_range = 0
+
     main(query, start_range)
