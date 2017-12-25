@@ -1,7 +1,7 @@
     Jazz
     Metal
-    Pop -!
-    Folk -!
+    Pop
+    Folk
     Rap
     Rock
     R&B
